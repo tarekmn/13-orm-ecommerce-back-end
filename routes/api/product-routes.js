@@ -23,7 +23,9 @@ router.get("/", async (req, res) => {
 // get one product
 router.get("/:id", async (req, res) => {
   try {
-    const data = await Product.findByPk(req.params.id);
+    const data = await Product.findByPk(req.params.id, {
+      include: [{ model: Category }, { model: Tag }],
+    });
 
     if (!data) {
       res.status(404).json({ message: "No Product found by this id!" });
@@ -107,7 +109,7 @@ router.put("/:id", (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
