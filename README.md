@@ -25,7 +25,7 @@ https://github.com/tarekmn/13-orm-ecommerce-back-end
 
 In addition, I included a Screencastify video url:
 
-X
+https://drive.google.com/file/d/1RXbDsbfe5qKZllrn-AltTUmIr7I_rP1-/view
 
 ## License
 
