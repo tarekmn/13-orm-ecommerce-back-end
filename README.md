@@ -21,7 +21,7 @@ node server.js or npx nodemon server.js
 ## Usage
 
 The following GitHub repo url is:
-https://github.com/tarekmn/13-orm-ecommerce-back-end
+https://github.com/tarekmn/tareks-ecommerce-back-end
 
 In addition, I included a Screencastify video url:
 
